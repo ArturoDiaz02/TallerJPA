@@ -4,7 +4,7 @@
 
 # Description
 
- Your task as a developer of the account system of ICESI University
+Your task as a developer of the account system of ICESI University
 is to create a service that will handle the creation of users and accounts.
 
 You have a simple model as a base, a user with basic information, the account
@@ -65,10 +65,9 @@ Note that we don't need the controllers right now.
 - Add security to te application.
 - A normal user can only update the state of it's own accounts
 - An admin user should be able to create roles, users and assing roles.
-- A bank user should be able to create users. but no admin users
-- A user can create and update accounts for himself.
+- A bank user should be able to create users.
 
-The aplication should handle it's custom exceptions and show a JSON response when an error appears: 
+The aplication should handle it's custom exceptions and show a JSON response when an error appears:
 - Add a custom exception.
 - Add a controller advice.
 - Handle the custom exception.
@@ -99,6 +98,5 @@ Calification:
 - The interface works as expected
 - Uses Boostrap to add css styles to the home page
 - The logout function redirects the user to the login page and deletes the token from the local store.
-
 
 
